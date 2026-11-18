@@ -1,0 +1,30 @@
+# Go binaries and build output
+/bot
+/whatsapp-go
+*.exe
+*.test
+*.out
+dist/
+build/
+
+# WhatsApp database and backups
+whatsapp.db
+whatsapp.db.bak-*
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Go test and coverage output
+coverage.out
+coverage.html
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
